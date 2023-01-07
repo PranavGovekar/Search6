@@ -67,8 +67,9 @@
     <h1 id="res"></h1>
     <input style="display:block; margin:auto;" class="btn btn-primary" type="button" onclick="printDiv();return false;" value="Save"/>
     </form>
+    <h1 id="res"></h1>
+    <button id="polling" style="display:block; margin:auto;" onclick=" window.open('https://drive.google.com/file/d/1ZEAeFa_Mz9aBTh3AKYGLS0xSKMRPf-S6/view?usp=sharing','_blank')" class="btn btn-primary">Check Polling Center</button>   
     <br>
-
     <div id="table">
         <table style="width: auto; margin: auto; text-align:center;" id="myTable"
             class="table table-responsive table-borderless table-striped table-earning">
@@ -249,6 +250,7 @@
                 document.getElementById("vote1").style.display = "none";
                 document.getElementById("vote2").style.display = "none";
                 document.getElementById("vote3").style.display = "none";
+                document.getElementById("polling").style.display = "none";
                 // document.getElementById("myTable").createTFoot().insertRow(0).insertCell(0).innerHTML = "Pranav Govekar";
                 document.title = str;
                 window.print();
